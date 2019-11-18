@@ -16,7 +16,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * |------+------+------+------+------+------+------+--------------------+------+------+------+------+------+------+------|
      * | TAB  |   Q  |   W  |   E  |   R  |   T  |zenhan|                    |insert|   Y  |   U  |   I  |   O  |   P  |  @   |
      * |------+------+------+------+------+------+------+--------------------+------+------+------+------+------+------+------|
-     * | CAPS |   A  |   S  |   D  |   F  |   G  | DEL  l                    | Bksp |   H  |   J  |   K  |   L  |   ;  |  '   |
+     * | CAPS |   A  |   S  |   D  |   F  |   G  | DEL  l                    | Bksp |   H  |   J  |   K  |   L  |   ;  |  :   |
      * |------+------+------+------+------+------+------l--------------------+------+------+------+------+------+------+------|
      * | SHIFT|   Z  |   X  |   C  |   V  |   B  |   [  |                    |   ]  |   N  |   M  |   ,  |   .  |   /  |  \&_ |
      * |-------------+------+------+------+------+------+------+------+------+------+------+------+------+------+-------------|
@@ -26,7 +26,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_QWERTY] = LAYOUT(
       KC_ESC,  CSTM_1,  CSTM_2,  CSTM_3,  CSTM_4,  CSTM_5,  KC_EQL  ,                         KC_JYEN ,CSTM_6,  CSTM_7,  CSTM_8,  CSTM_9,  CSTM_0,  KC_MINS, \
       KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_ZKHK ,                         KC_INS  ,KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC, \
-      KC_CAPS, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_DEL  ,                         KC_BSPC ,KC_H,    KC_J,    KC_K,    KC_L,    SCLN,    QUOT   , \
+      KC_CAPS, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_DEL  ,                         KC_BSPC ,KC_H,    KC_J,    KC_K,    KC_L,    SCLN,    KC_COLN, \
       SHIFT,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_RBRC ,                         KC_BSLS ,KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RO  , \
       KC_LCTL, KC_LGUI, KC_LALT, LOWER,            ADJUST,  KC_SPC  ,KC_ENT ,        KC_ENT , XXXXXXX ,ADJUST,           RAISE  , KC_LALT, KC_APP , KC_LCTL  \
     ),
